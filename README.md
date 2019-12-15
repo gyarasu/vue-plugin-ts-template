@@ -26,7 +26,7 @@ There will be some questions as below.
 
 I recommend that you set `entrypoint` to `index.js`(default) because of default setting in `tsconfig.json`.
 
-### 2. development
+### 2. implementation
 You can create your plugin in `src/`.
 
 ### 3. build
@@ -39,7 +39,7 @@ $ yarn build
 ### 4. commit and create tag
 Before publication, commit your code and create version tag on your repository.
 
-### 5. Publication
+### 5. publication
 Run the command to publish your package.
 
 ```bash
