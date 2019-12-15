@@ -8,9 +8,10 @@ You need your [NPM](https://www.npmjs.com/) account to publish your own package.
 If you don't have the account, let's register on NPM.
 
 ### 1. initialize
-Run the command to initialize your package.
+Run the command to install dependencies and initialize your package.
 
 ```bash
+$ yarn install
 $ yarn init
 ```
 
