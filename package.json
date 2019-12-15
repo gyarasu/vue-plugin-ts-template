@@ -1,0 +1,27 @@
+{
+  "name": "vue-plugin-ts-template",
+  "version": "0.1.0",
+  "description": "This is the npm package template to create and publish vue.js plugin by yourself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn lint && rm -rf ./dist && tsc",
+    "lint": "eslint --fix -c ./.eslintrc.json './**/*.ts'"
+  },
+  "repository": "https://github.com/gyarasu/vue-plugin-ts-template.git",
+  "author": "gyarasu",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.3"
+  }
+}
