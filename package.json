@@ -12,6 +12,9 @@
   "author": "gyarasu",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "vue"
+  ],
   "dependencies": {
     "vue": "^2.6.10"
   },
