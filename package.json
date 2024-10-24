@@ -16,7 +16,7 @@
     "vue"
   ],
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.11.0",
